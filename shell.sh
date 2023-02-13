@@ -1,5 +1,6 @@
 pwd
-This is Jenkins script
+echo "This is Jenkins script"
 printenv
 ls -ltr
 id
+echo "This is GitHub Webhook testing"
