@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        TEST_ENV = 'dev'
+        TEST_ENV = 'prod'
     }
     stages {
         stage('Build') {
