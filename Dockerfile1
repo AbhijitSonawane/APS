@@ -11,8 +11,7 @@ RUN apt-get update
 RUN apt-get install -y apache2
 RUN apt-get install -y apache2-utils
 # Replace content of Apache Home Page
-RUN echo "Docker Image created using Dockerfile for $SDLC_ENV" >
-/var/www/html/index.html
+RUN echo "Docker Image created using Dockerfile for $SDLC_ENV" > /var/www/html/index.html
 # Expose Container Port
 EXPOSE 80
 # Execute command at container launch
